@@ -1,0 +1,70 @@
+* {
+    /*Wichtig für responsive*/
+    box-sizing: border-box;
+    
+  }
+  html {
+
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 100%;
+  }
+  body {
+    width:350px;
+    height:800px;
+    margin: 0;
+   
+  }
+  h1 {
+    color: black
+    text-align: center;
+}
+#telefonbuch{
+    background-color:lightgray;
+    width:340px;
+    height:900px;
+}
+  .row {
+    width:1500px;
+    height:200px;
+    display: column;
+    padding: 5px;
+    display:flex-end;
+  
+  }
+  .card {
+    width:300px;
+    display:flex;
+    position:relative;
+    background-color:#fff;
+    margin: 1rem;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 4px 4px 12px black;
+    padding: bottom 3.5em;
+    padding:top 3.5em;
+}
+
+  .card:hover{
+        background-color:rgb(255, 183, 0);
+        transition: 0.75s;
+    }
+  
+  .text{
+      display:column;
+      display:flex-end;
+      text-align: right;
+  }
+  card img{
+      width:50%;
+      display:left;
+
+  }
+  .rund {
+    border-radius: 100%;
+    overflow:hidden;
+    width: 80px;
+    height:80%;
+    margin:1rem;
+    
+    }
